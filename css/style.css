@@ -3,19 +3,35 @@
 
 /* */
 
-body {
+html {
 	background-color: #F1F2AD;
 
 }
 div p {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+	white-space: pre;
+	text-indent: 2.3em;
 }
 
- li {
+
+ ul li {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	list-style: none;
+	font-weight: 700;
+	font-style: italic;
+	list-style-type: square;
+    background: url('marker.png') no-repeat 0 2px;
+	margin-left: 10%;
+	margin-right: 30%;
+	margin-bottom: 0.5em;
+
+	
+}
+
+li:hover {
+	color: tomato;
+}
+
 }
 
  div h3  {
@@ -28,6 +44,7 @@ h1 {
 	border-bottom: 3px solid #4D5054;
 	margin: 0 0 20px 0;
 	text-align: center;
+	text-shadow: 1px 1px 4px #000;
 }
 
 
@@ -37,9 +54,13 @@ h1 {
 	color:#4D5054;
 }
 
-#about {
+}
+
+#about p {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
+	margin-left:60%;
+	float: right;
 	text-align: center;
 	border-top: 3px solid #4D5054;
 }
@@ -56,6 +77,7 @@ img {
 	margin-top: 20px;
 
 }
+
 .button {
   border: 5;
   background: linear-gradient(#768191, #535b65);
