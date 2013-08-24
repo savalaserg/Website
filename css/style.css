@@ -4,14 +4,13 @@
 /* */
 
 html {
-	background-color: #F1F2AD;
-
+  background: #D9C791 url(img/purty2.png); 
 }
 div p {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	white-space: pre;
-	text-indent: 2.3em;
+	font-weight: 500;
+	text-indent: 1.3em;
+	margin: 0 10% 0 10%;
 }
 
 
@@ -20,18 +19,9 @@ div p {
 	font-weight: 700;
 	font-style: italic;
 	list-style-type: square;
-    background: url('marker.png') no-repeat 0 2px;
 	margin-left: 10%;
 	margin-right: 30%;
-	margin-bottom: 0.5em;
-
-	
-}
-
-li:hover {
-	color: tomato;
-}
-
+	margin-bottom: 0.5em;	
 }
 
  div h3  {
@@ -41,28 +31,18 @@ li:hover {
 }
 
 h1 {
-	border-bottom: 3px solid #4D5054;
-	margin: 0 0 20px 0;
-	text-align: center;
+	margin: 1% 35% 0% 35%; 
 	text-shadow: 1px 1px 4px #000;
-}
 
+}
 
 
 #links {
 	text-decoration: none;
 	color:#4D5054;
 }
-
-}
-
-#about p {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	margin-left:60%;
-	float: right;
-	text-align: center;
-	border-top: 3px solid #4D5054;
+.followme {
+	margin: 0% 32% 0% 32%; 
 }
 
 #links {
@@ -74,20 +54,19 @@ h1 {
 }
 
 img {
-	margin-top: 20px;
+	margin-left:5%;
 
 }
 
 .button {
-  border: 5;
-  background: linear-gradient(#768191, #535b65);
-  border-radius: 4px;
+  border: 0;
+  background: #C94737;
+  border-radius: 9px;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 5px 0 #404853;
-  color: #fff;
+  color: #C94737;
   cursor: pointer;
   font-weight: bold;
-  margin:auto;
-  position:relative;
+  margin: 3% 40% 0% 40%; 
   padding: 12px 20px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   text-transform: uppercase;
@@ -96,10 +75,10 @@ img {
   text-align: center;
 }
 .button:hover {
-  color: #d4d7da;
+  color: #C94737;
 }
 .button:active {
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 2px 0 #404853;
+  box-shadow: 0 1px 0 #61513F , 0 2px 0 #404853;
   transform: translateY(3px);
 }
 
